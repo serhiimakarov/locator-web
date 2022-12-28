@@ -1,0 +1,24 @@
+{
+    "buttons": {
+        "sign_in": "Увійти"
+    },
+
+    "form": {
+        "labels": {
+            "email": "Email",
+            "password": "Пароль"
+        },
+
+        "placeholders": {
+            "email": "viktor.pavlik@gmail.com"
+        },
+
+        "hints": {
+            "email": ""
+        },
+
+        "errors": {
+            "invalid_email": "Будь-ласка введіть валідну email-адресу."
+        }
+    }
+}

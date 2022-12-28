@@ -1,5 +1,7 @@
 <template>
-  <v-app>
+  <v-app theme="dark">
+    <default-bar />
+
     <default-view />
   </v-app>
 </template>

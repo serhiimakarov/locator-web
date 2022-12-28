@@ -1,0 +1,24 @@
+{
+    "buttons": {
+        "sign_in": "Sign In"
+    },
+
+    "form": {
+        "labels": {
+            "email": "Email",
+            "password": "Password"
+        },
+
+        "placeholders": {
+            "email": "john.doe@gmail.com"
+        },
+
+        "hints": {
+            "email": ""
+        },
+
+        "errors": {
+            "invalid_email": "Please fill valid email address."
+        }
+    }
+}
