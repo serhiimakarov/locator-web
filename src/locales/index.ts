@@ -1,13 +1,11 @@
 // Common locales
-const en: DefineLocaleMessage = require('./en.json')
-const uk: DefineLocaleMessage = require('./uk.json')
+import en from './en.json' assert {type: 'json'}
+import uk from './uk.json' assert {type: 'json'}
 
-import { LocaleProvider } from '@/providers/LocaleProvider'
-import { DefineLocaleMessage } from 'vue-i18n'
-import { LocaleMessages } from 'vuetify/lib/framework.mjs'
+import { LocaleMessages, LocaleProvider } from '@/providers/LocaleProvider'
 
 // Locale messages
-let localeMessages: DefineLocaleMessage = {
+let localeMessages: LocaleMessages = {
   'en': en,
   'uk': uk
 }

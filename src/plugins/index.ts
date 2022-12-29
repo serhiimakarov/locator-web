@@ -20,8 +20,6 @@ export function registerPlugins (app: App) {
   loadFonts()
   bootModules()
 
-  console.log(LocaleProvider.localeMessages)
-
   app
     .use(vuetify)
     .use(i18n)

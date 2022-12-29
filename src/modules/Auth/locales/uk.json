@@ -15,10 +15,17 @@
 
         "hints": {
             "email": ""
+        }
+    },
+
+    "validation": {
+        "email": {
+            "required": "Поле 'Email' обовʼязкове.",
+            "invalid": "Будь-ласка введіть валідну email-адресу."
         },
 
-        "errors": {
-            "invalid_email": "Будь-ласка введіть валідну email-адресу."
+        "password": {
+            "required": "Поле 'Пароль' обовʼязкове."
         }
     }
 }

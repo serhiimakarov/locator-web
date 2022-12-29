@@ -1,5 +1,5 @@
 import { RouteLocationNormalized } from 'vue-router'
-import { useAuthStore } from '../../store/auth'
+import { useAuthStore } from '../../modules/Auth/store/auth'
 
 export function isAuthenticated (to: RouteLocationNormalized) {
   const authStore = useAuthStore()

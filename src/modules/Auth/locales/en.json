@@ -15,10 +15,17 @@
 
         "hints": {
             "email": ""
+        }
+    },
+
+    "validation": {
+        "email": {
+            "required": "Email field required.",
+            "invalid": "Please enter valid email address."
         },
 
-        "errors": {
-            "invalid_email": "Please fill valid email address."
+        "password": {
+            "required": "Password field required."
         }
     }
 }
